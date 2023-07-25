@@ -11,9 +11,13 @@ st.set_page_config(page_title="VFC u19 Dashboard", layout="wide")
 st.title("Zona fisica")
 
 
+RPE, Wellness = st.tabs(["RPE", "WELLNESS"])
+
+with RPE:
 
 
 
+with Wellness:
 
 
 
