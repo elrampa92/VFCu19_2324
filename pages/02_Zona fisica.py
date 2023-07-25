@@ -13,11 +13,11 @@ st.title("Zona fisica")
 
 RPE, Wellness = st.tabs(["RPE", "WELLNESS"])
 
-with RPE:
+  with RPE:
 
 
 
-with Wellness:
+  with Wellness:
 
 
 
