@@ -10,7 +10,6 @@ from pprint import pprint
 # streamlit_app.py
 
 import hmac
-import streamlit as st
 
 
 def check_password():
