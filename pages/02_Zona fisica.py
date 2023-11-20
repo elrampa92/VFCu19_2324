@@ -5,7 +5,7 @@ import requests
 import altair as alt
 import matplotlib.pyplot as plt
 from pprint import pprint
-
+import hmac
 
 
 
@@ -14,7 +14,7 @@ from pprint import pprint
 st.set_page_config(page_title="VFC u19 Dashboard", layout="wide")
 st.title("Zona fisica")
 
-import hmac
+
 
 
 def check_password():
