@@ -6,6 +6,11 @@ import altair as alt
 import matplotlib.pyplot as plt
 from pprint import pprint
 
+from password_check import check_password
+
+if check_password():
+    st.write("#Page 1 👋")
+
 
 st.set_page_config(page_title="VFC u19 Dashboard", layout="wide")
 st.title("Zona fisica")
