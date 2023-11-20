@@ -6,7 +6,7 @@ import altair as alt
 import matplotlib.pyplot as plt
 from pprint import pprint
 
-from password_check import check_password
+from Homepage.py import check_password
 
 if check_password():
     st.write("#Page 1 👋")
