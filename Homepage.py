@@ -5,10 +5,6 @@ import requests
 import altair as alt
 import matplotlib.pyplot as plt
 from pprint import pprint
-
-
-# streamlit_app.py
-
 import hmac
 
 
@@ -36,15 +32,13 @@ def check_password():
     return False
 
 
-if not check_password():
-    st.stop()  # Do not continue if check_password is not True.
-
-
-#fine login form
 
 st.set_page_config(page_title="VFC u19 Dashboard", layout="wide")
 st.title("Homepage")
 st.sidebar.success("Seleziona una pagina")
+
+if not check_password():
+    st.stop()  # Do not continue if check_password is not True.
 
 ### LEGGO DATAFRAME CON MINUTAGGI
 #url = "https://raw.githubusercontent.com/elrampa92/VFCu19_Dashboard/main/MINUTAGGI/MINUTAGGI.csv" # Make sure the url is the raw version of the file on GitHub
